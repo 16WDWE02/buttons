@@ -78,6 +78,34 @@ button {
 	color: #333333;
 }
 
+#six {
+	background: #d6ef35; /* Old browsers */
+background: -moz-linear-gradient(top, #d6ef35 0%, #6f921d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6ef35), color-stop(100%,#6f921d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #d6ef35 0%,#6f921d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #d6ef35 0%,#6f921d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #d6ef35 0%,#6f921d 100%); /* IE10+ */
+background: linear-gradient(to bottom, #d6ef35 0%,#6f921d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6ef35', endColorstr='#6f921d',GradientType=0 ); /* IE6-9 */
+font-weight: 600;
+color: #fff;
+text-shadow: 0 -1px 1px #6F921D;
+border-radius: 10px;
+box-shadow: 0 3px 1px -1px #777;
+border: none;
+	cursor: pointer;
+	display: block;
+	padding: .8em;
+	outline: none;
+}
+
+#six:before {
+	content: '\f0ed';
+	font-family: FontAwesome;
+	display: inline;
+	margin-right: .6em;
+}
+
 
 
 
